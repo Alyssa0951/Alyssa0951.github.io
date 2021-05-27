@@ -115,7 +115,7 @@ h2 {
 
 h2 + p {
     font-size:.75rem;
-    letter-spacing: 2rem;
+    letter-spacing: .03125rem;
     word-spacing: .125rem;
     font-family:Josefinslab, Garamond, serif;
     text-indent: 1.5rem;
@@ -123,14 +123,14 @@ h2 + p {
 
 p {
     font-size:.75rem;
-    letter-spacing: 2rem;
+    letter-spacing: .03125rem;
     word-spacing: .125rem;
     font-family:Josefinslab, Garamond, serif;
     }
 
 li {
     font-size:.75rem;
-    letter-spacing: 2rem;
+    letter-spacing: .03125rem;
     word-spacing: .125rem;
     font-family:Josefinslab, Garamond, serif;
     }    
