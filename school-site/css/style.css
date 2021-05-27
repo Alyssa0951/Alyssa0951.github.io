@@ -79,40 +79,131 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face {
+    font-family: Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+    }
 
-
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+    }
 
 
 /* Typography Styles */
+html {
+    font-family: Montserrat, Arial, sans-serif;
+}
 
+h1 {
+    font-size:3.75rem;
+    margin: 1.125;
+    letter-spacing: .125rem;
+    font-family:Josefinslab, Garamond, serif;
+    text-align:center;
+    }
 
+h2 {
+    font-size:1.5rem;
+    letter-spacing: .125rem;
+    font-family:Josefinslab, Garamond, serif;
+    }
 
+h2 + p {
+    font-size:.75rem;
+    letter-spacing: 2rem;
+    word-spacing: .125rem;
+    font-family:Josefinslab, Garamond, serif;
+    text-indent: 1.5rem;
+    }
 
+p {
+    font-size:.75rem;
+    letter-spacing: 2rem;
+    word-spacing: .125rem;
+    font-family:Josefinslab, Garamond, serif;
+    }
 
+li {
+    font-size:.75rem;
+    letter-spacing: 2rem;
+    word-spacing: .125rem;
+    font-family:Josefinslab, Garamond, serif;
+    }    
+
+figcation {
+    font-size:.75rem;
+    margin-bottom: 2rem;
+    }
 
 /* Link Styling */
+a {
+    outline: 0;
+    } 
 
+a:link,
+a:visited {
+    foreground-color:#33658A;
+    }
 
-
-
-
+a:focus,
+a:hover {
+    underline: 0;
+    }
 
 /* List Styling */
+ul{
+    margin: 1rem 0 1rem 0;
+    list-style: square;
+    }
 
+ol{
+    margin: 1rem 0 1rem 0;
+    list-style: lower-alpha;
+    }
 
-
-
-
+.long-list a:hover {
+    text-transform: uppercase;
+    margin-top: 0;
+    }
 
 /* Navigation Menu */
+nav {
+    padding-bottom: .25rem;
+    }
 
+nav a {
+    underline: 0;
+    outline: none;
+    text-decoration: solid boarder #33658A 0.0625rem;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    line-height: 3;
+    font-size: 1.125rem;
+    } 
 
+nav a:focus,
+nav a:hover {
+    foreground-color:white;
+    background-color:#33658A;
+    }
 
-
+nav a:active {
+    foreground-color:white;
+    background-color:#000;
+    }
 
 
 /* Footer Styles */
-
+footer {
+    text-align:center;
+    }
 
 
 
