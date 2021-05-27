@@ -173,12 +173,13 @@ ol{
 
 /* Navigation Menu */
 nav {
-    padding-bottom: .25rem;
+    padding-left: 0;
+    margin-top: .25rem;
     }
 
 nav a {
     underline: 0;
-    text-decoration: solid boarder #33658A 0.0625rem;
+    text-decoration: solid border #33658A 0.0625rem;
     display: inline-block;
     width: 100%;
     margin-bottom: 1.5rem;
