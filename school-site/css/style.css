@@ -40,7 +40,8 @@ figure img {
 }
 
 figcaption {
-    margin:.375rem 0;
+    font-size:.75rem;
+    margin-bottom: 2rem;
 }
 
 .long-list {
