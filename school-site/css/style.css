@@ -178,7 +178,6 @@ nav {
 
 nav a {
     underline: 0;
-    outline: none;
     text-decoration: solid boarder #33658A 0.0625rem;
     display: inline-block;
     width: 100%;
