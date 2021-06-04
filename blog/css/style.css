@@ -167,26 +167,26 @@ main {
 section {
     overflow:auto;    
     float: left;
-    width:100%;
+    width:160%;
 }
 
 .main-section {
     overflow:auto;    
     display:flex;    
-    width:100%;
+    width:60%;
     margin-left:0;
     margin-right:1%;
 }
 
 .subsection {
     overflow:auto;
-    width:100%;
+    width:60%;
     margin-left:0;
     margin-right:1%;
 }
 
 aside {
-    width: 30%;
+    width: 40%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
@@ -227,7 +227,7 @@ figure {
 
 .article-image {
     float: left;
-    padding-right: 0.8em;
+    padding-right: 0.5em;
     padding-bottom: 0.8em;
 }
 .fig-1 {
