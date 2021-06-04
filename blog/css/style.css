@@ -128,11 +128,18 @@ nav a:hover {
     background-color: #fff; 
 }
 
+nav a:active {
+    color:#FFF;
+    font-style: italic;
+    background-color:#333;
+}
+
 nav a:nth-child(even):hover{
     color:black;
     text-decoration-line: line-through;
     transform: rotate(-10deg);
 }
+
 nav a:nth-child(odd):hover{
     color:black;
     text-decoration-line: line-through;
@@ -175,8 +182,7 @@ section {
     margin-right:1%;
 }
 
-.subsection {
-    
+.subsection {  
     width:75%;
     margin-left:0;
     margin-right:1%;
@@ -187,8 +193,7 @@ aside {
 }
 
 figure {
-    
-    background-color:#242F40;
+    flex-wrap:wrap;
 }
 
 /* || Media */
