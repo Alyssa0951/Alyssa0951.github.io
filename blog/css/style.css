@@ -225,7 +225,6 @@ figure {
 
 .article-image {
     float: left;
-    display:flex;
     padding-right: 0.8em;
     padding-bottom: 0.8em;
 }
