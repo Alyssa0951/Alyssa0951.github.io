@@ -57,7 +57,7 @@ html {
 
 body {
     margin: 1.5rem auto;
-    width:100%;
+    width:95%;
     min-width:56.25rem;
     font-family: 'Roboto Condensed', sans-serif;
        
@@ -182,7 +182,10 @@ section {
 }
 
 aside {
-    padding: .5rem;
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
 }
 aside a:hover{
     padding: .5rem;
