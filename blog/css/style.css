@@ -162,26 +162,25 @@ nav a:nth-child(odd):hover{
 /* || main layout */
 main {
     overflow:auto;
-    min-width:45rem;
 }
 
 section {
     overflow:auto;    
     float: left;
-    width:75%;
+    width:70%;
 }
 
 .main-section {
     overflow:auto;    
     display:flex;    
-    width:75%;
+    width:70%;
     margin-left:0;
     margin-right:1%;
 }
 
 .subsection {
     overflow:auto;
-    width:75%;
+    width:70%;
     margin-left:0;
     margin-right:1%;
 }
@@ -219,7 +218,6 @@ ul{
 }
 
 figure {
-    width:55%;
     margin:0 10% 0 0;
     float:left;
 }
@@ -228,6 +226,7 @@ figure {
 
 .article-image {
     float: left;
+    width:55%;
     padding-right: 0.8em;
     padding-bottom: 0.8em;
 }
@@ -250,18 +249,18 @@ figure {
 }
 
 .fig-4 {
-   width: 40%;     
+   width: 49%;     
    margin: 0;
    padding: 0;
 }
 .fig-5 {
-   width: 40%;       
+   width: 49%;       
    margin: 0;
    padding: 0;
 }
 
 .fig-6 {
-   width: 40%;       
+   width: 49%;       
    margin: 0;
    padding: 0;
 }
