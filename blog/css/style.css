@@ -197,19 +197,19 @@ figure {
     padding-bottom: 0.8em;
 }
 .fig-1 {
-    float: left;
+    width: 25%;
     padding-right: 0.8em;
     padding-bottom: 0.8em;
 }
 
 .fig-2 {
-    float: left;
+    width: 25%;
     padding-right: 0.8em;
     padding-bottom: 0.8em;
 }
 
 .fig-3 {
-   float: left;
+   width: 25%;
    padding-right: 0.8em;
    padding-bottom: 0.8em;
 }
@@ -246,11 +246,14 @@ figcaption {
     font-size:.75rem;
     padding:.5rem;
     margin:0;
-    background-color:#069;
+    background-color:#242F40;
 }
 
 button {
-   background-color:#242F40; 
+    font-size:3rem;
+    padding:.5rem;
+    margin:0;     
+   background-color:#069; 
 }
 
 .styled {
@@ -259,6 +262,7 @@ button {
 }
 
 aside{
+  display: flex;
   background-color:#242F40; 
 }
 
