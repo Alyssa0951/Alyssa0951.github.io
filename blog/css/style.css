@@ -166,11 +166,13 @@ main {
 }
 
 section {
+    overflow:auto;    
     float: left;
     width:75%;
 }
 
 .main-section {
+    overflow:auto;    
     display:flex;    
     width:75%;
     margin-left:0;
@@ -178,7 +180,7 @@ section {
 }
 
 .subsection {
-    overflow:auto;     
+    overflow:auto;
     width:75%;
     margin-left:0;
     margin-right:1%;
@@ -217,7 +219,7 @@ ul{
 }
 
 figure {
-    width:75%;
+    width:55%;
     margin:0 10% 0 0;
     float:left;
 }
