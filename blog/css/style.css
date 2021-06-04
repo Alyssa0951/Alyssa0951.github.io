@@ -117,8 +117,7 @@ nav ul {
     display: flex;
     flex-wrap:none;
     flex-direction: row;    
-    width: 800px
-    list-style-type:none;
+    width: 800px;
     margin:0 auto;
     padding:0;
 }
@@ -155,6 +154,22 @@ nav a:nth-child(odd):hover{
 
 /* || main layout */
 
+div {
+    padding-left:1%;
+    padding-right:1%;
+}      
+.column {
+  float: left;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
 main {
     padding-left:2%;
     padding-right:2%;
@@ -167,14 +182,14 @@ section {
 
 .main-section {
     
-    width:49%;
+    width:75%;
     margin-left:0;
     margin-right:1%;
 }
 
 .subsection {
     
-    width:49%;
+    width:75%;
     margin-left:0;
     margin-right:1%;
 }
