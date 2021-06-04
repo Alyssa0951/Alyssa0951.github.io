@@ -79,12 +79,13 @@ span{
     margin:0;
 }
 .span1{
-    text-color:solid 706969 ;
+    text-color:solid white;
     padding: 1rem;
-    background-color: 991919;
+    background-color: maroon;
     border-radius: 1rem 3.5rem;
     box-shadow: black;
-    box-shadow: 0.3rem 0.6rem;
+    box-shadow: 0.1rem 0.3rem;
+    transform: rotate(10deg);    
 }
 
 h2 {  
@@ -103,16 +104,6 @@ h3 {
 p, li {
   font-size: 1rem;
   line-height: 1.5;
-}
-
-.grid {
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 980px;
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-template-areas: "article aside";
-  grid-gap: 20px;
 }
 
 nav {
@@ -229,26 +220,24 @@ figure {
 }
 
 .fig-4 {
+   width: 25%;     
    margin: 0;
    padding: 0;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 1px;
+   display: flex;
 }
 .fig-5 {
+   width: 25%;       
    margin: 0;
    padding: 0;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 1px;
+   display: flex;
 }
 
 .fig-6 {
+   width: 25%;       
    margin: 0;
    padding: 0;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-gap: 1px;
+   display: flex;
+}
 }
 
 figure img {
