@@ -117,6 +117,7 @@ nav ul {
 nav ul a {
     display: block;
     padding: 8px 15px;
+    list-style; none;
     text-decoration: none;
     font-weight: bold;
     color: #069;
@@ -199,50 +200,46 @@ figure {
 /* || Media */
 
 .article-image {
-    
-    width:49%;
-    margin-left:0;
-    margin-right:1%;
+    float: left;
+    padding-right: 0.8em;
+    padding-bottom: 0.8em;
 }
 .fig-1 {
-    
-    width:49%;
-    margin-left:0;
-    margin-right:1%;
+    padding-right: 0.8em;
+    padding-bottom: 0.8em;
 }
 
 .fig-2 {
-    
-    width:49%;
-    margin-right:0;
-    margin-left:1%;
+    padding-right: 0.8em;
+    padding-bottom: 0.8em;
 }
 
 .fig-3 {
-    
-    width:49%;
-    margin-left:0;
-    margin-right:1%;
+   padding-right: 0.8em;
+   padding-bottom: 0.8em;
 }
 
 .fig-4 {
-    
-    width:49%;
-    margin-right:0;
-    margin-left:1%;
+   margin: 0;
+   padding: 0;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1px;
 }
 .fig-5 {
-    
-    width:49%;
-    margin-left:0;
-    margin-right:1%;
+   margin: 0;
+   padding: 0;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1px;
 }
 
 .fig-6 {
-    
-    width:49%;
-    margin-right:0;
-    margin-left:1%;
+   margin: 0;
+   padding: 0;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 1px;
 }
 
 figure img {
