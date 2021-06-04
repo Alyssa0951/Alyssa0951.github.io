@@ -119,7 +119,8 @@ nav ul {
     float:left;
     display: flex;
     flex-wrap:none;
-    flex-direction: row;    
+    flex-direction: row;
+    justify-content: space-between;
     width: 800px;
     margin:0 auto;
     padding:0;
@@ -216,7 +217,7 @@ ul{
 }
 
 figure {
-    width:60%;
+    width:75%;
     margin:0 10% 0 0;
     float:left;
 }
