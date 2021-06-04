@@ -165,6 +165,7 @@ main {
 }
 
 section {
+    display:flex;    
     float: left;
     width:75%;
 }
@@ -189,6 +190,10 @@ aside {
 }
 aside a:hover{
     padding: .5rem;
+}
+
+aside > p {
+    margin: .5rem;
 }
 
 .expand {
