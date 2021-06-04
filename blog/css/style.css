@@ -197,16 +197,19 @@ figure {
     padding-bottom: 0.8em;
 }
 .fig-1 {
+    float: left;
     padding-right: 0.8em;
     padding-bottom: 0.8em;
 }
 
 .fig-2 {
+    float: left;
     padding-right: 0.8em;
     padding-bottom: 0.8em;
 }
 
 .fig-3 {
+   float: left;
    padding-right: 0.8em;
    padding-bottom: 0.8em;
 }
