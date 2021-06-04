@@ -231,36 +231,36 @@ figure {
     padding-bottom: 0.8em;
 }
 .fig-1 {
-    width: 49%;
-    padding-right: 0.8em;
-    padding-bottom: 0.8em;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 
 .fig-2 {
-    width: 49%;
-    padding-right: 0.8em;
-    padding-bottom: 0.8em;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 
 .fig-3 {
-   width: 49%;
-   padding-right: 0.8em;
-   padding-bottom: 0.8em;
+   width: 100%;
+   padding-right: 0;
+   padding-bottom: 0;
 }
 
 .fig-4 {
-   width: 49%;     
+   width: 100%;     
    margin: 0;
    padding: 0;
 }
 .fig-5 {
-   width: 49%;       
+   width: 100%;       
    margin: 0;
    padding: 0;
 }
 
 .fig-6 {
-   width: 49%;       
+   width: 100%;       
    margin: 0;
    padding: 0;
 }
