@@ -258,6 +258,15 @@ button {
     text-align:center;
 }
 
+aside{
+  background-color:#242F40; 
+}
+
+.expand {
+    font-size:.75rem;
+    text-align:center;
+}
+        
 /* || Footer Layout */
 
 footer {
