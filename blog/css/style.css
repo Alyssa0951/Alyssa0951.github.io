@@ -223,21 +223,17 @@ figure {
    width: 25%;     
    margin: 0;
    padding: 0;
-   display: flex;
 }
 .fig-5 {
    width: 25%;       
    margin: 0;
    padding: 0;
-   display: flex;
 }
 
 .fig-6 {
    width: 25%;       
    margin: 0;
    padding: 0;
-   display: flex;
-}
 }
 
 figure img {
