@@ -117,6 +117,10 @@ nav {
 }
 
 nav ul {
+    float:left;
+    display: flex;
+    flex-wrap:none;
+    flex-direction: row;    
     width: 800px
     list-style-type:none;
     margin:0 auto;
