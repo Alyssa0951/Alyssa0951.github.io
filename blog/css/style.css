@@ -186,6 +186,24 @@ aside {
     display:flex;
     padding: .5rem;
 }
+aside a:hover{
+    display:flex;
+    padding: .5rem;
+}
+.expand {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;   
+}
+ul{
+    margin: 1rem 0 1rem 0;
+    list-style: none;
+}
+
+.pics{
+    margin-top: 0;
+}
 
 figure {
     width:60%;
@@ -258,10 +276,6 @@ button {
     text-align:center;
 }
 
-aside{
-  display: flex;
-  background-color:#242F40; 
-}
 
 .expand {
     font-size:.75rem;
