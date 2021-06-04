@@ -65,7 +65,7 @@ body {
 } 
 
 header {
-    border-bottom: .0625rem solid #333;
+    border-bottom: 1px solid #ccc;
     margin-bottom:4rem;
     padding-bottom:2rem;
   
@@ -142,10 +142,15 @@ nav a:hover {
     background-color: #fff; 
 }
 
-nav a:active {
-    color:#FFF;
-    font-style: italic;
-    background-color:#333;
+nav a:nth-child(even):hover{
+    color:black;
+    text-decoration-line: line-through;
+    transform: rotate(-10deg);
+}
+nav a:nth-child(odd):hover{
+    color:black;
+    text-decoration-line: line-through;
+    transform: rotate(10deg);
 }
 
 /* || main layout */
@@ -255,9 +260,8 @@ article>p {
   margin-top:0;
 }
 
-article>p>a {
+aside {
     
-    color:darkblue;
 }
 
 /* || Footer Layout */
