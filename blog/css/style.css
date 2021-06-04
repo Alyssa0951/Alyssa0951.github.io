@@ -170,25 +170,21 @@ section {
 }
 
 .main-section {
-    float:left;
     width:75%;
     margin-left:0;
     margin-right:1%;
 }
 
 .subsection {
-    float:left;
     width:75%;
     margin-left:0;
     margin-right:1%;
 }
 
 aside {
-    display:flex;
     padding: .5rem;
 }
 aside a:hover{
-    display:flex;
     padding: .5rem;
 }
 
