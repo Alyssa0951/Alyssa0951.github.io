@@ -47,7 +47,7 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i|Roboto+Condensed:400,400i,700|Roboto:400,400i,900|Shadows+Into+Light');
 html {
     margin: 0;
     padding: 0;
@@ -72,7 +72,7 @@ header {
 }
  
 h1 {
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight:100;
     color: #333;
     font-family: Lato, sans-serif;
@@ -93,19 +93,18 @@ h2 {
     
 }
 
+h3 {
+    
+    font-size:1.5rem;
+    margin-top:0;
+    font-weight:100;
+    font-family:'Lato', sans-serif;
+    
+}
+
 p, li {
   font-size: 1rem;
   line-height: 1.5;
-}
-
-blockquote {
-    
-    border-top:.0625rem solid #333;
-    border-bottom:.0625rem solid #333;
-    margin:2rem 0;
-    padding:2rem 4rem;
-    text-align:center;
-    font-style:italic;
 }
 
 nav {
@@ -119,10 +118,6 @@ nav {
       position:fixed;
 }
 
-nav img {
-    width:100%;
-    border-bottom:.0625rem solid #333;
-}
 
 nav p {
     margin:0;
@@ -188,6 +183,20 @@ section {
     margin-bottom:.5%;
 }
 
+.main-section {
+    
+    width:49%;
+    margin-left:0;
+    margin-right:1%;
+}
+
+.subsection {
+    
+    width:49%;
+    margin-left:0;
+    margin-right:1%;
+}
+
 aside {
     display:flex;
 }
@@ -199,6 +208,12 @@ figure {
 
 /* || Media */
 
+.article-image {
+    
+    width:49%;
+    margin-left:0;
+    margin-right:1%;
+}
 .fig-1 {
     
     width:49%;
@@ -207,6 +222,33 @@ figure {
 }
 
 .fig-2 {
+    
+    width:49%;
+    margin-right:0;
+    margin-left:1%;
+}
+
+.fig-3 {
+    
+    width:49%;
+    margin-left:0;
+    margin-right:1%;
+}
+
+.fig-4 {
+    
+    width:49%;
+    margin-right:0;
+    margin-left:1%;
+}
+.fig-5 {
+    
+    width:49%;
+    margin-left:0;
+    margin-right:1%;
+}
+
+.fig-6 {
     
     width:49%;
     margin-right:0;
@@ -224,18 +266,6 @@ figcaption {
     margin:0;
     background-color:#242F40;
     color:#B1BED3;
-}
-
-figcaption a {
-    
-    font-size:.75rem;
-    color:#B1BED3;
-}
-
-figure video,
-figure iframe {
-    border:none;
-    background-color:#000;
 }
 
 /* || Written Content */
@@ -269,7 +299,7 @@ footer {
 
 footer a {
     font-size:.75rem;
-    color:darkblue;
+    text-align:right;
 }
 
 article p a:hover,
@@ -282,16 +312,5 @@ footer a:hover {
     font-size:.75rem;
     float:left;
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
 
