@@ -247,6 +247,14 @@ figcaption {
     color:#B1BED3;
 }
 
+button {
+   background-color:#069; 
+}
+
+.styled {
+    font-size:.75rem;
+    text-align:center;
+}
 
 /* || Footer Layout */
 
